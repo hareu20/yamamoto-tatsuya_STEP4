@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 40px 0;
+    background-color: #f0f0f0;
+    font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    color: #333333;
+}
+
+.page {
+    width: 520px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 24px 0 40px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 28px;
+}
+
+.input-form {
+    width: 420px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 24px 28px 28px;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #ececec;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+    height: 32px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 8px 18px;
+    background-color: #2f80ed;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.error {
+    margin: 6px 0 0;
+    color: #d32f2f;
+    font-size: 13px;
+}
